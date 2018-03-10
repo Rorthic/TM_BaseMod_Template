@@ -1,12 +1,12 @@
 using StudioForge.TotalMiner.API;
 
-namespace Skylands
+namespace ProjectNameSpace
 {
     class TMPluginProvider : ITMPluginProvider
     {
         public ITMPlugin GetPlugin()
         {
-            return new Skyland();
+            return new MainModClass();
         }
 
         public ITMPluginBlocks GetPluginBlocks()
